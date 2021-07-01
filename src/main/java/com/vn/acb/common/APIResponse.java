@@ -1,4 +1,4 @@
-package acb;
+package com.vn.acb.common;
 
 import java.io.Serializable;
 
