@@ -1,4 +1,4 @@
-package com.vn.acb.common;
+package vn.com.acb.vdc.common;
 
 import java.io.Serializable;
 

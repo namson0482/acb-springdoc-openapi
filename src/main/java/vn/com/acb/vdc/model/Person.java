@@ -1,4 +1,4 @@
-package com.vn.acb.model;
+package vn.com.acb.vdc.model;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Max;

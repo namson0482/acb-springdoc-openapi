@@ -1,4 +1,4 @@
-package com.vn.acb;
+package com.vn.acb.vdc;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -20,7 +20,7 @@ public class AcbApplication {
     public OpenAPI customOpenAPI(@Value("${application-description}") String appDesciption, @Value("${application-version}") String appVersion) {
      return new OpenAPI()
           .info(new Info()
-          .title("ACB Application API")
+          .title("ACB API")
           .version(appVersion)
           .description(appDesciption)
           .termsOfService("http://swagger.io/terms/")

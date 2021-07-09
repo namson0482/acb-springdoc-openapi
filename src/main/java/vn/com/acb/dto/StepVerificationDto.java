@@ -1,4 +1,4 @@
-package com.vn.acb.dto;
+package vn.com.acb.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
