@@ -1,0 +1,13 @@
+application-description: '@project.description@'
+application-version: '@project.version@'
+logging:
+    level:
+        org:
+            springframework:
+                boot:
+                    autoconfigure: ERROR
+server:
+    port: 8081
+springdoc:
+    swagger-ui:
+        path: /swagger-ui.html
